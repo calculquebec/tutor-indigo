@@ -1,5 +1,5 @@
-$primary: {{ INDIGO_PRIMARY_COLOR }};
-$primary-light: #F2F7F8;
+$primary: #052147; // {{ INDIGO_PRIMARY_COLOR }};
+$primary-light: #6095C1; // F2F7F8;
 
 // Theme fonts
 $font-family-title: 'Inter', sans-serif;;
@@ -12,16 +12,16 @@ $f-sans-serif: Crimson, 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-ser
 
 // Introducing new variables
 
-$dark: #111827;
-$light-dark: #374151;
+$dark: #6095C1; // 111827;
+$light-dark: #013D5B; // 374151;
 $big-screen: 1200px;
 
 
 
 // Introducing dark-theme variables
 
-$primary-d: #AEC7F6;
-$primary-light-d: #292A2C;
+$primary-d: $dark; // #AEC7F6;
+$primary-light-d: $light-dark; // #292A2C;
 $light-drak-d: #374151;
 $text-color-d: #F8F8F8;
 $text-color-primary: #DDDFE2;
