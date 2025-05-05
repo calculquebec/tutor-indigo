@@ -55,7 +55,7 @@ header.global-header {
       height: auto;
 
       .logo {
-        height: 40px;
+        height: 30px;
         margin: 0;
       }
     }
@@ -629,4 +629,8 @@ body.indigo-dark-theme {
   .page-back {
     padding: 24px;
   }
+}
+
+.window-wrap #content.content-wrapper {
+  margin-top: 264px !important;
 }
