@@ -9,6 +9,7 @@
 
   /* Overlay colors */
   --banner-overlay: rgba(10, 45, 93, 0.7);
+  --dark-mode-overlay: rgba(255, 255, 255, 0.1);
 
   /* Text colors */
   --text-light: #ffffff;
@@ -592,11 +593,27 @@ body.indigo-dark-theme {
       }
     }
   }
+
+  .course-tabs-navigation+.container-xl>.row>.col-12.col-md-4.p-0.px-md-4 section.mb-4.x-small {
+    background-color: var(--dark-blue) !important;
+  }
 }
 
 .pgn-transition-replace-group,
-.form-group {
+.form-group, .raised-card,
+.pgn__data-table-wrapper {
   border-color: var(--primary-blue) !important;
+}
+
+.raised-card {
+  .rounded-bottom, .pgn__data-table-footer {
+  background-color: var(--primary-blue) !important;
+  border-radius: 0 0 8px 0 !important;
+  }
+}
+
+#weighted-grade-summary, text {
+  color: white !important;
 }
 
 @media screen and (max-width: 1000px) {
@@ -633,4 +650,8 @@ body.indigo-dark-theme {
 
 .window-wrap #content.content-wrapper {
   margin-top: 264px !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-blue) !important;
 }
