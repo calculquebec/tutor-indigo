@@ -43,6 +43,7 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
 % endif
 
 <header class="global-header ${'slim' if course else ''}">
+  <script src="https://kit.fontawesome.com/91003a351d.js" crossorigin="anonymous"></script>
     <div class="header-container">
     % if settings.FEATURES.get('ENABLE_COOKIE_POLICY_BANNER', use_cookie_banner):
         ${static.renderReact(
