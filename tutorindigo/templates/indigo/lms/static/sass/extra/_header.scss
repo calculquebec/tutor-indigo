@@ -209,8 +209,8 @@ header.global-header {
 }
 
 .theme-toggle-button {
+  display: none;
   position: relative;
-  display: flex;
   align-items: center;
   margin-right: 0 !important;
   gap: 0.5rem;
