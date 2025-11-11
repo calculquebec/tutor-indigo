@@ -286,20 +286,19 @@ header.global-header {
 }
 
 .banner {
-  background: url("../images/servers_background.png") no-repeat center 40% !important;
+  background: url("../images/image_bandeau.png") no-repeat center 40% !important;
   background-size: cover !important;
   height: 170px;
   position: relative;
 
   .cover-filter {
-    background: var(--banner-overlay) !important;
     background-size: cover;
     height: 170px;
   }
 
   img {
-    filter: brightness(0) invert(1);
     max-width: 527px;
+    max-height: 128px;
     position: absolute;
     top: 50%;
     left: 50%;
