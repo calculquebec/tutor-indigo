@@ -764,10 +764,10 @@ body.indigo-dark-theme {
       .wrapper-search-context {
         .wrapper-search-input {
           .button-holder button {
-            background: #052147;
+            background: var(--dark-blue) !important;
             font: normal 1rem / 1rem "Roboto", sans-serif;
             letter-spacing: normal;
-            background-color: var(--primary-blue) !important;
+            background-color: var(--dark-blue) !important;
             color: #ffffff !important;
             border: none;
           }
