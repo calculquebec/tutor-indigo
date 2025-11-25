@@ -58,6 +58,8 @@ header.global-header {
   overflow: visible;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
     0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  background: #ffffff !important;
+
   &:after {
     content: "";
     clear: both;
@@ -648,8 +650,8 @@ body.indigo-dark-theme {
         }
 
         .dropdown-user-menu {
-          background: $light-overlay-d;
-          background-color: var(--dark-blue) !important;
+          background: #313131;
+          background-color: #ffffff;
           box-shadow: none !important;
 
           .dropdown-item {
@@ -762,25 +764,14 @@ body.indigo-dark-theme {
       .wrapper-search-context {
         .wrapper-search-input {
           .button-holder button {
-            background: var(--primary-blue) !important;
+            background: #052147;
             font: normal 1rem / 1rem "Roboto", sans-serif;
             letter-spacing: normal;
             background-color: var(--primary-blue) !important;
-            color: var(--dark-blue) !important;
-            border-color: var(--primary-blue) !important;
-          }
-
-          .input-holder {
-            background: var(--banner-overlay) !important;
+            color: #ffffff !important;
+            border: none;
           }
         }
-      }
-    }
-
-    .filter-block {
-      > a,
-      .dropdown-menu {
-        background: var(--banner-overlay) !important;
       }
     }
   }
