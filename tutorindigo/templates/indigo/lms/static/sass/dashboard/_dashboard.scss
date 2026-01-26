@@ -4,7 +4,8 @@
     margin: 0 !important;
     max-width: 100%;
     @include media-breakpoint-up(lg) {
-        margin-top: 64px !important;
+        margin-top: 0 !important;
+        border: none;
     }
 }
 .sidebar-notification.add {
